@@ -13,6 +13,7 @@
             p->Velocity({p->Velocity()[0], p->Velocity()[1] * -1});
     }
 }
+
 bool isNotResolved(std::vector<std::pair<int,int>> &pairs, std::pair<int,int> &key)
 {
    bool resolved = true;
@@ -26,6 +27,7 @@ bool isNotResolved(std::vector<std::pair<int,int>> &pairs, std::pair<int,int> &k
     }
     return resolved;
 }
+
 void ParticleDynamics::checkParticleCollision(std::shared_ptr<Box> box)
 {
     double center_dist=0;

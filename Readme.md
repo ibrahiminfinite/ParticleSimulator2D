@@ -61,3 +61,10 @@ make
 
 ./simulator
 ```
+
+----
+
+TODO :
+
+1. Decouple Visualization from the simulation loop (run on seperate thread ?)
+2. Implement faster collision detection.
